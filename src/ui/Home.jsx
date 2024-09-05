@@ -11,7 +11,7 @@ function Home() {
         👋 Welcome! Please start by telling us your name:
       </p>
       <form className="flex justify-center">
-        <input type="text" className="rounded-full py-2 px-6" />
+        <input type="text" className="rounded-full py-2 px-6 outline-none border-none  focus:ring-2 ring-yellow-200" />
       </form>
     </div>
   );
